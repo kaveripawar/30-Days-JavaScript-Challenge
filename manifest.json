@@ -1,0 +1,19 @@
+{
+    "name":"Easy to Cook",
+    "version":"0.0.1",
+    "manifest_version":2,
+    "description":"This extension will help to store all information about jobs and then jsut copy from their and paste here",
+
+    "browser_action":{
+           "default_popup":"popup.html",
+           "default_icon":"logo.png"
+    },
+    "icons":{
+        "128":"logo.png"
+    },
+   
+    "permissions": [
+        "https://api.spoonacular.com/",
+        "activeTab"
+      ]     
+}
