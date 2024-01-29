@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   
     function searchForRecipes(query) {
-      // const apiKey='96a24eeb007e442f9c1eb5e9fd877b14';
+      const apiKey='Replace with your own apikey';
       const apiUrl = `https://api.spoonacular.com/recipes/complexSearch?query=${query}&apiKey=${API_KEY}`;
       console.log(apiUrl);
       fetch(apiUrl)
