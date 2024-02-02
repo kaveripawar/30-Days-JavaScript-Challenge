@@ -1,5 +1,5 @@
 {
-    "name":"Easy to Cook",
+    "name":"Recipe of Day",
     "version":"0.0.1",
     "manifest_version":2,
     "description":"This extension will help to store all information about jobs and then jsut copy from their and paste here",
